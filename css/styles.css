@@ -8,7 +8,7 @@
     --second-background-color:#E5E5E5;
     --third-background-color:#F5F4FA;
     --footer-text-color:rgba(255, 255, 255, 0.6);
-
+    --second-button-color: #188ce8;
 }
 
 
@@ -24,6 +24,24 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 color:var(--accent-color);
+}
+.site-logo{
+font-family: Raleway;
+font-style: 400;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19px;
+letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+.logo-second{
+font-family: Raleway;
+font-style: 400;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19px;
+letter-spacing: 0.03em;
+    color: #000;
 }
 .list{
     list-style: none;
@@ -96,10 +114,11 @@ letter-spacing: 0.06em;
 color: #FFFFFF;
 background-color: var(--accent-color)   ;
 }
-/* ---------------------Services----------------- */
-.services{
-    background-color:var(--second-background-color);
+.hero-btn:hover,
+.hero-btn:focus{
+    color:var(--second-button-color) ;
 }
+/* ---------------------Services----------------- */
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -184,6 +203,16 @@ color:var(--footer-text-color)
 
 
 }
+.logo-second-half{
+    color: var(--third-text-color);
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+}
 .footer-link:hover,
 .footer-link:focus{
     color:var(--accent-color);
@@ -213,7 +242,8 @@ background-color:var(--third-background-color)
 }
 .btn-port:hover,
 .btn-port:focus{
-    color: var(--accent-color);
+    color: var(--third-text-color);
+background-color: var(--accent-color);
 }
 .title-port{
 font-style: 400;
